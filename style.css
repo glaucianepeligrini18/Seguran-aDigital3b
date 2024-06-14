@@ -3,7 +3,7 @@
 }
 
 :root{
---branco: white;
+    --branco: white;
     --cor-de-fundo: #d4129a;
     --fundo-senha: #15ccfa;
     --fundo-texto: #dc19ee;
@@ -19,7 +19,7 @@ body{
     font-family: var(--roboto);
 }
 
-..titulo-principal{
+.titulo-principal{
     font-family: var(--roboto-mono);
     font-size: 32px;
 }
@@ -47,6 +47,13 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+.conteudo-senha{
+    margin-top: 80px; 
+    background: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+}
+
 
 
 
