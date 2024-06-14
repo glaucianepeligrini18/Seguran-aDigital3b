@@ -1,4 +1,5 @@
 :root{
+
     --branco: white;
     --cor-de-fundo: #d4129a;
     --fundo-senha: #15ccfa;
@@ -26,6 +27,7 @@ body{
     margin-top: 80px;
 }
 
+
 .conteudo-senha{
     background: var(--fundo-senha);
     padding: 24px;
@@ -33,6 +35,13 @@ body{
 }
 #campo-senha:focus{
     outline: none;
+}
+.conteudo{
+    max-width: 1200px;
+}
+.conteudo{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 
